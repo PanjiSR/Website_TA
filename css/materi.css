@@ -1,0 +1,295 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #000;
+    height: 40px;
+    position: sticky;
+}
+
+.navbar-brand a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #d6d6d6;
+}
+/* Navbar End */
+
+/* Container */
+.detail-container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    background-color: #00a4ef;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Hero Excel */
+.hero2 {
+    background-color: #7fba00;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+/* Hero Excel End */
+
+/* Hero PPT */
+.hero3 {
+    background-color: #f25022;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+/* Hero PPT End */
+
+/* Hero Darabase */
+.hero4 {
+    background-color: #00758F;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+/* Hero Database */
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+}
+
+.content-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content-text {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.content-list {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.content-list li {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #00a4ef;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-primary:hover {
+    background-color: #00a4ef;
+}
+
+.btn-secondary:hover {
+    background-color: #ccc;
+}
+
+/* Buttons Excel */
+.buttons2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons2 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-primary2 {
+    background-color: #7fba00;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary2 {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-primary2:hover {
+    background-color: #7fba00;
+}
+
+.btn-secondary2:hover {
+    background-color: #ccc;
+}
+
+/* Buttons PPT */
+.buttons3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons3 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-primary3 {
+    background-color: #f25022;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary3 {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-primary3:hover {
+    background-color: #f25022;
+}
+
+.btn-secondary3:hover {
+    background-color: #ccc;
+}
+
+/* Buttons PPT */
+.buttons4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons4 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-primary4 {
+    background-color: #00758F;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary4 {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-primary4:hover {
+    background-color: #00758F;
+}
+
+.btn-secondary4:hover {
+    background-color: #ccc;
+}
+/* End Button */
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+}
+
+table tr{
+    text-align: center;
+}
+/* End Tabel */
+
+/* Pembahasan Materi */
+.content-title-M {
+    font-size: 1.5rem;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+.content-text-M span{
+    color: #882222;
+}
+.content-list-M {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #555;
+}

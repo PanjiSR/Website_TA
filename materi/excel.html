@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Materi</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/materi.css">
+    <!-- Font Awesome -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">PIK</a>
+            </div>
+            <ul class="navbar-links">
+                <li><a href="materi.html">Materi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <div class="detail-container">
+        <!-- Hero Banner -->
+        <div class="hero2">
+            <h1 class="hero-title">Excel</h1>
+            <p class="hero-subtitle">Microsoft Excel adalah software yang digunakan untuk pengolahan angka</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h2 class="content-title">Tentang Materi</h2>
+            <p class="content-text">
+                Microsoft Excel merupakan perangkat lunak pengolah angka berupa <i>spreadsheet</i>. Excel digunakan untuk bekerja dengan daftar data, menghitung angka-angka, membuat laporan, diagram, grafik, dan sebagainya.
+            </p>
+
+            <h2 class="content-title">Materi yang telah dipalajari</h2>
+            <ul class="content-list">
+                <li>Fungsi Aritmatika</li>
+                <li>Fungsi Count</li>
+                <li>Fungsi IF Tunggal & IF Bertingkat</li>
+                <li>Fungsi IF AND & IF OR</li>
+                <li>Fungsi Left, Mid, dan Right</li>
+            </ul>
+            <!-- Aritmatika -->
+            <h2 class="content-title-M">1. Fungsi Aritmatika</h2>
+            <p class="content-text-M">
+                Aritmatika adalah bagian dasar matematika yang mempelajari operasi bilangan seperti Penambahan, Pengurangan, Perkalian, dan Pembagian. <br><br>
+                Lambang Aritmatika yang biasa digunakan pada Ms.Excel adalah :
+            </p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Simbol</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>+</td>
+                        <td>Penambahan</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>Pengurangan</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Perkalian</td>
+                    </tr>
+                    <tr>
+                        <td>/</td>
+                        <td>Pembagian</td>
+                    </tr>
+                    <tr>
+                        <td>^</td>
+                        <td>Kuadrat</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="content-list-M">
+                <li>SUM digunakan untuk menjumlahkan nilai pada sel
+                    <p>Rumus : <strong>=SUM(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+                <li>AVERAGE digunakan untuk menghitung nilai rata-rata pada sel
+                    <p>Rumus : <strong>=AVERAGE(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+                <li>MIN digunakan untuk menghitung nilai Terkecil pada sel
+                    <p>Rumus : <strong>=MIN(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+                <li>MAX digunakan untuk menghitung nilai Terbesar pada sel
+                    <p>Rumus : <strong>=MAX(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+                <li>RANK digunakan untuk mencari peringkat melalui perbandingan nilai pada masing-masing sel
+                    <p>Rumus : <strong>=RANK(Sel Awal : Sel Akhir)</strong></p>
+                    <p>Catatan : Klik Fn + F4 untuk mengunci nilai</p>
+                </li>
+            </ul>
+            <!-- Aritmatika End -->
+
+            <!-- Count -->
+            <h2 class="content-title-M">2. Fungsi Count</h2>
+            <ul class="content-list-M">
+                <li>COUNT digunakan untuk menghitung jumlah sel yang terisi data
+                    <p>Rumus : <strong>=COUNT(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+                <li>COUNTBLANK digunakan untuk menghitung jumlah sel yang tidak terisi data
+                    <p>Rumus : <strong>=COUNTBLANK(Sel Awal : Sel Akhir)</strong></p>
+                </li>
+            </ul>
+            <!-- Count End -->
+
+            <!-- IF -->
+            <h2 class="content-title-M">3. Fungsi IF Tunggal dan IF Bertingkat</h2>
+            <p class="content-text-M">
+                Adalah fungsi yang akan menghasilkan suatu nilai jika suatu kondisi terpenuhi dan akan menghasilkan nilai lainnya Ketika suatu kondisi tersebut tidak terpenuhi
+            </p>
+            <ul class="content-list-M">
+                <li>Rumus IF Tunggal : <strong>=IF(TesLogika;KondisiBenar;KondisiSalah)</strong></li>
+                <li>Rumus IF Bertingkat : <strong>=IF(TesLogika1;KondisiBenar1;IF(TesLogika2;KondisiBenar2;KondisiSalah))</strong></li>
+            </ul>
+            <!-- IF End-->
+
+            <!-- IF AND & IF OR -->
+            <h2 class="content-title-M">3. Fungsi IF AND dan IF OR</h2>
+            <p class="content-text-M">
+                <strong>IF AND</strong> kedua uji haruslah bernilai benar, maka kondisi akan terpenuhi <br>
+                <strong>IF OR</strong> salah satu uji haruslah bernilai benar, maka kondisi akan terpenuhi
+            </p>
+            <ul class="content-list-M">
+                <li>Rumus IF AND : <strong>=IF(AND(TesLogika1;TesLogika2;...);KondisiTerpenuhi;KondisiTidakTerpenuhi)</strong></li>
+                <li>Rumus IF OR : <strong>=IF(OR(TesLogika1;TesLogika2;...);KondisiTerpenuhi;KondisiTidakTerpenuhi)</strong></li>
+            </ul>
+            <!-- IF AND & IF OR End -->
+
+            <!-- Left Mid Right -->
+            <h2 class="content-title-M">4. Fungsi Left, Mid, Right</h2>
+            <p class="content-text-M">
+                <strong>Left</strong> digunakan untuk mengambil dan menampilkan isi sel berupa karakter/kata yang dihitung mulai dari arah kiri <ul class="content-list-M">
+                    <li>Rumus : <strong>=LEFT(Sel Asal; Jumlah karakter yang akan ditampilkan)</strong></li>
+                </ul><br>
+                <strong>MID</strong> digunakan untuk mengambil dan menampilkan isi sel berupa karakter/kata yang dihitung mulai dari indeks karakter pilihan, lalu berapa karakter yang akan ditampilkan mulai dari indeks karakter pilihan tersebut. <ul class="content-list-M">
+                    <li>Rumus : <strong>=MID(Sel Asal; Dimulai dari; Jumlah karakter yang ditampilkan)</strong></li>
+                </ul>
+                <strong>Right</strong> digunakan untuk mengambil dan menampilkan isi sel berupa karakter/kata yang dihitung mulai dari arah kanan <ul class="content-list-M">
+                    <li>Rumus : <strong>=RIGHT(Sel Asal; Jumlah karakter yang ditampilkan)</strong></li>
+                </ul>
+            </p>
+            <!-- Left Mid Right End -->
+
+            <!-- VLOOKUP dan HLOOKUP -->
+            <h2 class="content-title-M">5. VLOOKUP dan HLOOKUP</h2>
+            <p class="content-text-M">
+                <strong>VLOOKUP</strong> digunakan untuk pengisian data berdasarkan tabel referensi yang berbentuk kolom atau vertikal. <ul class="content-list-M">
+                    <li>Rumus : <strong>=VLOOKUP(Nilai Kunci; Tabel Referensi; Kolom yang digunakan; 0)</strong></li>
+                </ul><br>
+                <strong>HLOOKUP</strong> digunakan untuk pengisian data berdasarkan tabel referensi yang berbentuk kolom atau vertikal. <ul class="content-list-M">
+                    <li>Rumus : <strong>=HLOOKUP(Nilai Kunci; Tabel Referensi; Kolom yang digunakan; 0)</strong></li>
+                </ul>
+            </p>
+            <!-- VLOOKUP dan HLOOKUP End -->
+            
+            <!-- Diagram -->
+             <h2 class="content-title-M">6. Diagram</h2>
+             <ul class="content-list-M">
+                <li>Buatlah tabel dan isi terlebih dahulu</li>
+                <li>Blok tabel yang akan digunakan untuk menjadi diagram</li>
+                <li>Pilih menu <strong>Insert</strong>, lalu cari <strong>Chart</strong></li>
+                <li>Pilih <strong>Column Chart</strong> sesuaikan dengan kebutuhan</li>
+                <li>Diagram akan muncul secara otomatis</li>
+             </ul>
+            <!-- Diagram End -->
+
+            <!-- Pivot Table -->
+            <h2 class="content-title-M">7. Pivot Table</h2>
+            <p class="content-text-M">
+                Adalah sebuah tabel interaktif yang dapat menampilkan ringkasan data berjumlah besar dalam bentuk dan orientasi yang berbeda. <br>
+                Pivot Table juga mampu melakukan kalkulasi pada setiap item yang dibutuhkan dengan menggunakan cara perhitungan sesuai kebutuhan.
+            </p>
+            <ul class="content-list-M">
+                <li>Buatlah table yang berisikan data, usahakan tidak boleh ada data yang kosong, lalu setelah itu blok table tersebut</li>
+                <li>Pilih menu <strong>Insert</strong>, setelahnya klik <strong>PivotTable</strong>, maka akan muncul menu seperti ini:</li>
+                <li>Di menu <strong>PivotTable</strong>, pilih <strong>Existing Worksheet</strong> lalu pada Location, klik tombol panah untuk menunjuk lokasi munculnya PivotTable.</li>
+                <li>Klik Sel kosong agar PivotTable muncul, Setelahnya klik Kembali Tombol panah. Lalu klik <strong>OK</strong></li>
+            </ul>
+            <!-- Pivot Table End -->
+
+            <!-- Buttons -->
+            <div class="buttons2">
+                <a href="#" class="btn-primary2">Mulai Belajar</a>
+                <a href="/materi.html" class="btn-secondary2">Kembali ke Materi</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
